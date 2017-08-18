@@ -1,0 +1,4 @@
+[console_scripts]
+bootstrap-mafia = mafia.command:bootstrap
+start-mafia = mafia.command:start
+

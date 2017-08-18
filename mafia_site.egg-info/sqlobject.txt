@@ -1,0 +1,2 @@
+db_module=mafia.model
+history_dir=$base/mafia/sqlobject-history

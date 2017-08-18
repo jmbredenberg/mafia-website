@@ -1,0 +1,21 @@
+Exception in thread VisitManager (most likely raised during interpreter shutdown):
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 811, in __bootstrap_inner
+  File "/usr/lib/python2.7/site-packages/turbogears/visit/api.py", line 333, in run
+  File "/usr/lib64/python2.7/threading.py", line 621, in wait
+  File "/usr/lib64/python2.7/threading.py", line 332, in wait
+<type 'exceptions.TypeError'>: 'NoneType' object is not callable
+Exception in thread VisitManager (most likely raised during interpreter shutdown):
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 811, in __bootstrap_inner
+  File "/usr/lib/python2.7/site-packages/turbogears/visit/api.py", line 333, in run
+  File "/usr/lib64/python2.7/threading.py", line 621, in wait
+  File "/usr/lib64/python2.7/threading.py", line 332, in wait
+<type 'exceptions.TypeError'>: 'NoneType' object is not callable
+Exception in thread VisitManager (most likely raised during interpreter shutdown):
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/threading.py", line 811, in __bootstrap_inner
+  File "/usr/lib/python2.7/site-packages/turbogears/visit/api.py", line 333, in run
+  File "/usr/lib64/python2.7/threading.py", line 621, in wait
+  File "/usr/lib64/python2.7/threading.py", line 354, in wait
+<type 'exceptions.TypeError'>: 'NoneType' object is not callable

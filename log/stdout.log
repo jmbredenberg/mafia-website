@@ -1,0 +1,489 @@
+starting with basename flup.fcgi
+Before tg_init()
+code dir: /mit/jamb/Scripts/turbogears/mafia-site/, log_dir: /mit/jamb/Scripts/turbogears/mafia-site/log
+About to update config from /mit/jamb/Scripts/turbogears/mafia-site/dev.cfg
+from mafia.controllers import Root as Root
+Before cherrypy.server.start()
+2017-08-18 18:01:47,238 cherrypy.msg INFO CONFIG: Server parameters:
+2017-08-18 18:01:47,238 cherrypy.msg INFO CONFIG:   server.environment: development
+2017-08-18 18:01:47,239 cherrypy.msg INFO CONFIG:   server.log_to_screen: True
+2017-08-18 18:01:47,239 cherrypy.msg INFO CONFIG:   server.log_file: 
+2017-08-18 18:01:47,239 cherrypy.msg INFO CONFIG:   server.log_tracebacks: True
+2017-08-18 18:01:47,239 cherrypy.msg INFO CONFIG:   server.log_request_headers: True
+2017-08-18 18:01:47,239 cherrypy.msg INFO CONFIG:   server.protocol_version: HTTP/1.0
+2017-08-18 18:01:47,239 cherrypy.msg INFO CONFIG:   server.socket_host: 
+2017-08-18 18:01:47,239 cherrypy.msg INFO CONFIG:   server.socket_port: 8080
+2017-08-18 18:01:47,239 cherrypy.msg INFO CONFIG:   server.socket_file: 
+2017-08-18 18:01:47,240 cherrypy.msg INFO CONFIG:   server.reverse_dns: False
+2017-08-18 18:01:47,240 cherrypy.msg INFO CONFIG:   server.socket_queue_size: 5
+2017-08-18 18:01:47,240 cherrypy.msg INFO CONFIG:   server.thread_pool: 10
+2017-08-18 18:01:47,643 turbogears.startup INFO Request decoding filter activated.
+2017-08-18 18:01:47,647 turbogears.visit INFO Visit Tracking starting (timeout = 1200 sec).
+2017-08-18 18:01:47,706 turbogears.visit.sovisit INFO Successfully loaded 'mafia.model.Visit'
+2017-08-18 18:01:48,432 turbogears.visit INFO Visit filter initialized
+Identity starting
+Successfully loaded "mafia.model.User".
+Successfully loaded "mafia.model.Group".
+Successfully loaded "mafia.model.Permission".
+Successfully loaded "mafia.model.VisitIdentity".
+Identity visit plugin initialized
+Successfully loaded "mafia.model.User".
+Successfully loaded "mafia.model.Group".
+Successfully loaded "mafia.model.Permission".
+Successfully loaded "mafia.model.VisitIdentity".
+After cherrypy.server.start()
+before import cherrypy/wsgiapp
+Before wsgiserver(application=wsgiapp).run()
+18.189.117.45 - - [18/Aug/2017:22:01:48 +0000] "GET /mafia/flup.fcgi/ HTTP/1.1" 200 5498 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:01:49 +0000] "GET /mafia/flup.fcgi/static/images/under_the_hood_blue.png HTTP/1.1" 200 2667 "http://jamb.scripts.mit.edu/mafia/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:01:50 +0000] "GET /mafia/flup.fcgi/static/css/style.css HTTP/1.1" 200 3567 "http://jamb.scripts.mit.edu/mafia/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:01:50 +0000] "GET /mafia/flup.fcgi/static/images/pagebg.png HTTP/1.1" 200 235 "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/style.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:01:50 +0000] "GET /mafia/flup.fcgi/static/images/contentbg.png HTTP/1.1" 200 408 "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/style.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:01:50 +0000] "GET /mafia/flup.fcgi/static/images/menu-item-actibg-first.png HTTP/1.1" 200 593 "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/style.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:01:51 +0000] "GET /mafia/flup.fcgi/static/images/info.png HTTP/1.1" 200 2142 "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/style.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+starting with basename flup.fcgi
+Before tg_init()
+code dir: /mit/jamb/Scripts/turbogears/mafia-site/, log_dir: /mit/jamb/Scripts/turbogears/mafia-site/log
+About to update config from /mit/jamb/Scripts/turbogears/mafia-site/dev.cfg
+from mafia.controllers import Root as Root
+Before cherrypy.server.start()
+2017-08-18 18:01:52,523 cherrypy.msg INFO CONFIG: Server parameters:
+2017-08-18 18:01:52,523 cherrypy.msg INFO CONFIG:   server.environment: development
+2017-08-18 18:01:52,523 cherrypy.msg INFO CONFIG:   server.log_to_screen: True
+2017-08-18 18:01:52,523 cherrypy.msg INFO CONFIG:   server.log_file: 
+2017-08-18 18:01:52,523 cherrypy.msg INFO CONFIG:   server.log_tracebacks: True
+2017-08-18 18:01:52,524 cherrypy.msg INFO CONFIG:   server.log_request_headers: True
+2017-08-18 18:01:52,524 cherrypy.msg INFO CONFIG:   server.protocol_version: HTTP/1.0
+2017-08-18 18:01:52,524 cherrypy.msg INFO CONFIG:   server.socket_host: 
+2017-08-18 18:01:52,524 cherrypy.msg INFO CONFIG:   server.socket_port: 8080
+2017-08-18 18:01:52,524 cherrypy.msg INFO CONFIG:   server.socket_file: 
+2017-08-18 18:01:52,525 cherrypy.msg INFO CONFIG:   server.reverse_dns: False
+2017-08-18 18:01:52,525 cherrypy.msg INFO CONFIG:   server.socket_queue_size: 5
+2017-08-18 18:01:52,525 cherrypy.msg INFO CONFIG:   server.thread_pool: 10
+starting with basename flup.fcgi
+Before tg_init()
+code dir: /mit/jamb/Scripts/turbogears/mafia-site/, log_dir: /mit/jamb/Scripts/turbogears/mafia-site/log
+About to update config from /mit/jamb/Scripts/turbogears/mafia-site/dev.cfg
+from mafia.controllers import Root as Root
+Before cherrypy.server.start()
+2017-08-18 18:01:52,541 cherrypy.msg INFO CONFIG: Server parameters:
+2017-08-18 18:01:52,541 cherrypy.msg INFO CONFIG:   server.environment: development
+2017-08-18 18:01:52,541 cherrypy.msg INFO CONFIG:   server.log_to_screen: True
+2017-08-18 18:01:52,541 cherrypy.msg INFO CONFIG:   server.log_file: 
+2017-08-18 18:01:52,542 cherrypy.msg INFO CONFIG:   server.log_tracebacks: True
+2017-08-18 18:01:52,542 cherrypy.msg INFO CONFIG:   server.log_request_headers: True
+2017-08-18 18:01:52,542 cherrypy.msg INFO CONFIG:   server.protocol_version: HTTP/1.0
+2017-08-18 18:01:52,542 cherrypy.msg INFO CONFIG:   server.socket_host: 
+2017-08-18 18:01:52,542 cherrypy.msg INFO CONFIG:   server.socket_port: 8080
+2017-08-18 18:01:52,542 cherrypy.msg INFO CONFIG:   server.socket_file: 
+2017-08-18 18:01:52,543 cherrypy.msg INFO CONFIG:   server.reverse_dns: False
+2017-08-18 18:01:52,543 cherrypy.msg INFO CONFIG:   server.socket_queue_size: 5
+2017-08-18 18:01:52,543 cherrypy.msg INFO CONFIG:   server.thread_pool: 10
+starting with basename flup.fcgi
+Before tg_init()
+code dir: /mit/jamb/Scripts/turbogears/mafia-site/, log_dir: /mit/jamb/Scripts/turbogears/mafia-site/log
+About to update config from /mit/jamb/Scripts/turbogears/mafia-site/dev.cfg
+from mafia.controllers import Root as Root
+Before cherrypy.server.start()
+2017-08-18 18:01:52,543 cherrypy.msg INFO CONFIG: Server parameters:
+2017-08-18 18:01:52,543 cherrypy.msg INFO CONFIG:   server.environment: development
+2017-08-18 18:01:52,544 cherrypy.msg INFO CONFIG:   server.log_to_screen: True
+2017-08-18 18:01:52,544 cherrypy.msg INFO CONFIG:   server.log_file: 
+2017-08-18 18:01:52,544 cherrypy.msg INFO CONFIG:   server.log_tracebacks: True
+2017-08-18 18:01:52,544 cherrypy.msg INFO CONFIG:   server.log_request_headers: True
+2017-08-18 18:01:52,544 cherrypy.msg INFO CONFIG:   server.protocol_version: HTTP/1.0
+2017-08-18 18:01:52,544 cherrypy.msg INFO CONFIG:   server.socket_host: 
+2017-08-18 18:01:52,545 cherrypy.msg INFO CONFIG:   server.socket_port: 8080
+2017-08-18 18:01:52,545 cherrypy.msg INFO CONFIG:   server.socket_file: 
+2017-08-18 18:01:52,545 cherrypy.msg INFO CONFIG:   server.reverse_dns: False
+2017-08-18 18:01:52,545 cherrypy.msg INFO CONFIG:   server.socket_queue_size: 5
+2017-08-18 18:01:52,545 cherrypy.msg INFO CONFIG:   server.thread_pool: 10
+2017-08-18 18:01:52,696 turbogears.startup INFO Request decoding filter activated.
+2017-08-18 18:01:52,699 turbogears.visit INFO Visit Tracking starting (timeout = 1200 sec).
+2017-08-18 18:01:52,713 turbogears.visit.sovisit INFO Successfully loaded 'mafia.model.Visit'
+2017-08-18 18:01:52,727 turbogears.startup INFO Request decoding filter activated.
+2017-08-18 18:01:52,730 turbogears.visit INFO Visit Tracking starting (timeout = 1200 sec).
+2017-08-18 18:01:52,740 turbogears.visit INFO Visit filter initialized
+Identity starting
+2017-08-18 18:01:52,743 turbogears.startup INFO Request decoding filter activated.
+2017-08-18 18:01:52,744 turbogears.visit.sovisit INFO Successfully loaded 'mafia.model.Visit'
+2017-08-18 18:01:52,746 turbogears.visit INFO Visit Tracking starting (timeout = 1200 sec).
+Successfully loaded "mafia.model.User".
+Successfully loaded "mafia.model.Group".
+Successfully loaded "mafia.model.Permission".
+Successfully loaded "mafia.model.VisitIdentity".
+2017-08-18 18:01:52,759 turbogears.visit.sovisit INFO Successfully loaded 'mafia.model.Visit'
+Identity visit plugin initialized
+Successfully loaded "mafia.model.User".
+Successfully loaded "mafia.model.Group".
+Successfully loaded "mafia.model.Permission".
+Successfully loaded "mafia.model.VisitIdentity".
+After cherrypy.server.start()
+before import cherrypy/wsgiapp
+Before wsgiserver(application=wsgiapp).run()
+2017-08-18 18:01:52,766 turbogears.visit INFO Visit filter initialized
+Identity starting
+Successfully loaded "mafia.model.User".
+Successfully loaded "mafia.model.Group".
+Successfully loaded "mafia.model.Permission".
+Successfully loaded "mafia.model.VisitIdentity".
+18.189.117.45 - - [18/Aug/2017:22:01:52 +0000] "GET /mafia/flup.fcgi/static/images/menu-item-border.png HTTP/1.1" 200 209 "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/style.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+2017-08-18 18:01:52,779 turbogears.visit INFO Visit filter initialized
+Identity starting
+Identity visit plugin initialized
+Successfully loaded "mafia.model.User".
+Successfully loaded "mafia.model.Group".
+Successfully loaded "mafia.model.Permission".
+Successfully loaded "mafia.model.VisitIdentity".
+After cherrypy.server.start()
+before import cherrypy/wsgiapp
+Before wsgiserver(application=wsgiapp).run()
+Successfully loaded "mafia.model.User".
+Successfully loaded "mafia.model.Group".
+Successfully loaded "mafia.model.Permission".
+Successfully loaded "mafia.model.VisitIdentity".
+Identity visit plugin initialized
+Successfully loaded "mafia.model.User".
+Successfully loaded "mafia.model.Group".
+Successfully loaded "mafia.model.Permission".
+Successfully loaded "mafia.model.VisitIdentity".
+18.189.117.45 - - [18/Aug/2017:22:01:52 +0000] "GET /mafia/flup.fcgi/static/images/headerbg.png HTTP/1.1" 200 17496 "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/style.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+After cherrypy.server.start()
+before import cherrypy/wsgiapp
+Before wsgiserver(application=wsgiapp).run()
+18.189.117.45 - - [18/Aug/2017:22:01:52 +0000] "GET /mafia/flup.fcgi/static/images/menubg.png HTTP/1.1" 200 1623 "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/style.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:01:55 +0000] "GET /mafia/flup.fcgi/static/images/menu-item-actibg.png HTTP/1.1" 200 338 "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/style.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:01:59 +0000] "GET /mafia/flup.fcgi/static/images/menu-item-actibg.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/style.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:02:08 +0000] "GET /mafia/flup.fcgi/static/images/menu-item-actibg.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/style.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+After wsgiserver(application=wsgiapp).run()
+After wsgiserver(application=wsgiapp).run()
+After wsgiserver(application=wsgiapp).run()
+After wsgiserver(application=wsgiapp).run()
+starting with basename flup.fcgi
+Before tg_init()
+code dir: /mit/jamb/Scripts/turbogears/mafia-site/, log_dir: /mit/jamb/Scripts/turbogears/mafia-site/log
+About to update config from /mit/jamb/Scripts/turbogears/mafia-site/dev.cfg
+from mafia.controllers import Root as Root
+Before cherrypy.server.start()
+2017-08-18 18:14:23,248 cherrypy.msg INFO CONFIG: Server parameters:
+2017-08-18 18:14:23,249 cherrypy.msg INFO CONFIG:   server.environment: development
+2017-08-18 18:14:23,249 cherrypy.msg INFO CONFIG:   server.log_to_screen: True
+2017-08-18 18:14:23,249 cherrypy.msg INFO CONFIG:   server.log_file: 
+2017-08-18 18:14:23,249 cherrypy.msg INFO CONFIG:   server.log_tracebacks: True
+2017-08-18 18:14:23,249 cherrypy.msg INFO CONFIG:   server.log_request_headers: True
+2017-08-18 18:14:23,249 cherrypy.msg INFO CONFIG:   server.protocol_version: HTTP/1.0
+2017-08-18 18:14:23,249 cherrypy.msg INFO CONFIG:   server.socket_host: 
+2017-08-18 18:14:23,250 cherrypy.msg INFO CONFIG:   server.socket_port: 8080
+2017-08-18 18:14:23,250 cherrypy.msg INFO CONFIG:   server.socket_file: 
+2017-08-18 18:14:23,250 cherrypy.msg INFO CONFIG:   server.reverse_dns: False
+2017-08-18 18:14:23,250 cherrypy.msg INFO CONFIG:   server.socket_queue_size: 5
+2017-08-18 18:14:23,250 cherrypy.msg INFO CONFIG:   server.thread_pool: 10
+2017-08-18 18:14:23,376 turbogears.startup INFO Request decoding filter activated.
+2017-08-18 18:14:23,378 turbogears.visit INFO Visit Tracking starting (timeout = 1200 sec).
+2017-08-18 18:14:23,388 turbogears.visit.sovisit INFO Successfully loaded 'mafia.model.Visit'
+2017-08-18 18:14:23,409 turbogears.visit INFO Visit filter initialized
+Identity starting
+Successfully loaded "mafia.model.User".
+Successfully loaded "mafia.model.Group".
+Successfully loaded "mafia.model.Permission".
+Successfully loaded "mafia.model.VisitIdentity".
+Identity visit plugin initialized
+Successfully loaded "mafia.model.User".
+Successfully loaded "mafia.model.Group".
+Successfully loaded "mafia.model.Permission".
+Successfully loaded "mafia.model.VisitIdentity".
+After cherrypy.server.start()
+before import cherrypy/wsgiapp
+Before wsgiserver(application=wsgiapp).run()
+18.189.117.45 - - [18/Aug/2017:22:14:23 +0000] "GET /mafia/flup.fcgi/static/images/menu-item-actibg.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/style.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:14:2After wsgiserver(application=wsgiapp).run()
+/menu-item-actibg.png HTTP/1.1" 200 338 "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/style.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:15:30 +0000] "GET /mafia/flup.fcgi/index HTTP/1.1" 200 5498 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:15:30 +0000] "GET /mafia/flup.fcgi/static/css/style.css HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/index" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:15:30 +0000] "GET /mafia/flup.fcgi/static/images/pagebg.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/style.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:15:30 +0000] "GET /mafia/flup.fcgi/static/images/menu-item-border.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/style.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:15:30 +0000] "GET /mafia/flup.fcgi/static/images/contentbg.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/style.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:15:30 +0000] "GET /mafia/flup.fcgi/static/images/info.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/style.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:15:31 +0000] "GET /mafia/flup.fcgi/static/images/under_the_hood_blue.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/index" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:15:31 +0000] "GET /mafia/flup.fcgi/static/images/menu-item-actibg-first.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/style.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+starting with basename flup.fcgi
+Before tg_init()
+code dir: /mit/jamb/Scripts/turbogears/mafia-site/, log_dir: /mit/jamb/Scripts/turbogears/mafia-site/log
+About to update config from /mit/jamb/Scripts/turbogears/mafia-site/dev.cfg
+from mafia.controllers import Root as Root
+Before cherrypy.server.start()
+2017-08-18 18:15:32,621 cherrypy.msg INFO CONFIG: Server parameters:
+2017-08-18 18:15:32,621 cherrypy.msg INFO CONFIG:   server.environment: development
+2017-08-18 18:15:32,621 cherrypy.msg INFO CONFIG:   server.log_to_screen: True
+2017-08-18 18:15:32,622 cherrypy.msg INFO CONFIG:   server.log_file: 
+2017-08-18 18:15:32,622 cherrypy.msg INFO CONFIG:   server.log_tracebacks: True
+2017-08-18 18:15:32,622 cherrypy.msg INFO CONFIG:   server.log_request_headers: True
+2017-08-18 18:15:32,622 cherrypy.msg INFO CONFIG:   server.protocol_version: HTTP/1.0
+2017-08-18 18:15:32,622 cherrypy.msg INFO CONFIG:   server.socket_host: 
+2017-08-18 18:15:32,622 cherrypy.msg INFO CONFIG:   server.socket_port: 8080
+2017-08-18 18:15:32,622 cherrypy.msg INFO CONFIG:   server.socket_file: 
+2017-08-18 18:15:32,622 cherrypy.msg INFO CONFIG:   server.reverse_dns: False
+2017-08-18 18:15:32,623 cherrypy.msg INFO CONFIG:   server.socket_queue_size: 5
+2017-08-18 18:15:32,623 cherrypy.msg INFO CONFIG:   server.thread_pool: 10
+starting with basename flup.fcgi
+Before tg_init()
+code dir: /mit/jamb/Scripts/turbogears/mafia-site/, log_dir: /mit/jamb/Scripts/turbogears/mafia-site/log
+About to update config from /mit/jamb/Scripts/turbogears/mafia-site/dev.cfg
+from mafia.controllers import Root as Root
+Before cherrypy.server.start()
+2017-08-18 18:15:32,648 cherrypy.msg INFO CONFIG: Server parameters:
+2017-08-18 18:15:32,649 cherrypy.msg INFO CONFIG:   server.environment: development
+2017-08-18 18:15:32,649 cherrypy.msg INFO CONFIG:   server.log_to_screen: True
+2017-08-18 18:15:32,649 cherrypy.msg INFO CONFIG:   server.log_file: 
+2017-08-18 18:15:32,649 cherrypy.msg INFO CONFIG:   server.log_tracebacks: True
+2017-08-18 18:15:32,649 cherrypy.msg INFO CONFIG:   server.log_request_headers: True
+2017-08-18 18:15:32,650 cherrypy.msg INFO CONFIG:   server.protocol_version: HTTP/1.0
+2017-08-18 18:15:32,650 cherrypy.msg INFO CONFIG:   server.socket_host: 
+2017-08-18 18:15:32,650 cherrypy.msg INFO CONFIG:   server.socket_port: 8080
+2017-08-18 18:15:32,650 cherrypy.msg INFO CONFIG:   server.socket_file: 
+2017-08-18 18:15:32,650 cherrypy.msg INFO CONFIG:   server.reverse_dns: False
+2017-08-18 18:15:32,650 cherrypy.msg INFO CONFIG:   server.socket_queue_size: 5
+2017-08-18 18:15:32,651 cherrypy.msg INFO CONFIG:   server.thread_pool: 10
+2017-08-18 18:15:32,770 turbogears.startup INFO Request decoding filter activated.
+2017-08-18 18:15:32,773 turbogears.visit INFO Visit Tracking starting (timeout = 1200 sec).
+2017-08-18 18:15:32,784 turbogears.visit.sovisit INFO Successfully loaded 'mafia.model.Visit'
+2017-08-18 18:15:32,792 turbogears.startup INFO Request decoding filter activated.
+2017-08-18 18:15:32,795 turbogears.visit INFO Visit Tracking starting (timeout = 1200 sec).
+2017-08-18 18:15:32,805 turbogears.visit.sovisit INFO Successfully loaded 'mafia.model.Visit'
+2017-08-18 18:15:32,806 turbogears.visit INFO Visit filter initialized
+Identity starting
+Successfully loaded "mafia.model.User".
+Successfully loaded "mafia.model.Group".
+Successfully loaded "mafia.model.Permission".
+Successfully loaded "mafia.model.VisitIdentity".
+Identity visit plugin initialized
+2017-08-18 18:15:32,851 turbogears.visit INFO Visit filter initialized
+Identity starting
+Successfully loaded "mafia.model.User".
+Successfully loaded "mafia.model.Group".
+Successfully loaded "mafia.model.Permission".
+Successfully loaded "mafia.model.VisitIdentity".
+After cherrypy.server.start()
+before import cherrypy/wsgiapp
+Before wsgiserver(application=wsgiapp).run()
+18.189.117.45 - - [18/Aug/2017:22:15:32 +0000] "GET /mafia/flup.fcgi/static/images/menubg.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/style.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+Successfully loaded "mafia.model.User".
+Successfully loaded "mafia.model.Group".
+Successfully loaded "mafia.model.Permission".
+Successfully loaded "mafia.model.VisitIdentity".
+Identity visit plugin initialized
+Successfully loaded "mafia.model.User".
+Successfully loaded "mafia.model.Group".
+Successfully loaded "mafia.model.Permission".
+Successfully loaded "mafia.model.VisitIdentity".
+After cherrypy.server.start()
+before import cherrypy/wsgiapp
+Before wsgiserver(application=wsgiapp).run()
+18.189.117.45 - - [18/Aug/2017:22:15:32 +0000] "GET /mafia/flup.fcgi/static/images/headerbg.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/style.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:15:44 +0000] "GET /mafia/flup.fcgi/login HTTP/1.1" 200 2815 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:15:44 +0000] "GET /mafia/flup.fcgi/static/css/login.css HTTP/1.1" 200 1548 "http://jamb.scripts.mit.edu/mafia/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:15:44 +0000] "GET /mafia/flup.fcgi/static/images/loginbottombg.png HTTP/1.1" 200 2033 "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/login.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:15:44 +0000] "GET /mafia/flup.fcgi/static/images/loginheader-right.png HTTP/1.1" 200 274 "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/login.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:15:44 +0000] "GET /mafia/flup.fcgi/static/images/loginheader-left.png HTTP/1.1" 200 331 "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/login.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:15:45 +0000] "GET /mafia/flup.fcgi/static/images/inputbg.png HTTP/1.1" 200 451 "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/login.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:15:45 +0000] "GET /mafia/flup.fcgi/static/images/loginbg.png HTTP/1.1" 200 1171 "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/login.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+No such user: jamb
+The credentials specified weren't valid
+18.189.117.45 - - [18/Aug/2017:22:15:48 +0000] "POST /mafia/flup.fcgi/login HTTP/1.1" 200 2888 "http://jamb.scripts.mit.edu/mafia/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:15:52 +0000] "GET /mafia/flup.fcgi/static/images/menu-item-actibg.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/style.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+No such user: 
+The credentials specified weren't valid
+18.189.117.45 - - [18/Aug/2017:22:15:56 +0000] "POST /mafia/flup.fcgi/login HTTP/1.1" 200 2888 "http://jamb.scripts.mit.edu/mafia/flup.fcgi/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+No such user: 
+The credentials specified weren't valid
+18.189.117.45 - - [18/Aug/2017:22:15:59 +0000] "POST /mafia/flup.fcgi/login HTTP/1.1" 200 2888 "http://jamb.scripts.mit.edu/mafia/flup.fcgi/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:23:05 +0000] "GET /mafia/flup.fcgi/static/images/menu-item-actibg.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/style.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:23:08 +0000] "GET /mafia/flup.fcgi/login HTTP/1.1" 200 2815 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:23:08 +0000] "GET /mafia/flup.fcgi/static/css/login.css HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/login" "MozilAfter wsgiserver(application=wsgiapp).run()
+After wsgiserver(application=wsgiapp).run()
+/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:23:08 +0000] "GET /mafia/flup.fcgi/static/css/style.css HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/login" "Mozilla/5.0 (MacintosAfter wsgiserver(application=wsgiapp).run()
+After wsgiserver(application=wsgiapp).run()
+fari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:23:08 +0000] "GET /mafia/flup.fcgi/static/images/under_the_hood_blue.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:23:08 +0000] "GET /mafia/flup.fcgi/static/images/pagebg.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/style.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:23:08 +0000] "GET /mafia/flup.fcgi/static/images/contentbg.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/style.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:23:08 +0000] "GET /mafia/flup.fcgi/static/images/loginbottombg.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/login.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:23:08 +0000] "GET /mafia/flup.fcgi/static/images/inputbg.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/login.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:23:08 +0000] "GET /mafia/flup.fcgi/static/images/loginbg.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/login.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:23:08 +0000] "GET /mafia/flup.fcgi/static/images/loginheader-left.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/login.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:23:08 +0000] "GET /mafia/flup.fcgi/static/images/headerbg.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/style.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:23:08 +0000] "GET /mafia/flup.fcgi/static/images/menubg.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/style.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:23:08 +0000] "GET /mafia/flup.fcgi/static/images/loginheader-right.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/login.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:23:08 +0000] "GET /mafia/flup.fcgi/static/images/menu-item-border.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/style.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:23:08 +0000] "GET /mafia/flup.fcgi/static/images/menu-item-actibg-first.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/style.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:23:31 +0000] "GET /mafia/flup.fcgi/login HTTP/1.1" 200 2820 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:26:55 +0000] "GET /mafia/flup.fcgi/static/images/menu-item-actibg.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/style.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:32:13 +0000] "GET /mafia/flup.fcgi/login HTTP/1.1" 200 2804 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:32:13 +0000] "GET /mafia/flup.fcgi/static/css/login.css HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:32:13 +0000] "GET /mafia/flup.fcgi/static/css/style.css HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:32:13 +0000] "GET /mafia/flup.fcgi/static/images/under_the_hood_blue.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:32:13 +0000] "GET /mafia/flup.fcgi/static/images/pagebg.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/style.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:32:13 +0000] "GET /mafia/flup.fcgi/static/images/loginbottombg.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/login.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:32:13 +0000] "GET /mafia/flup.fcgi/static/images/loginbg.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/login.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:32:13 +0000] "GET /mafia/flup.fcgi/static/images/contentbg.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/style.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:32:13 +0000] "GET /mafia/flup.fcgi/static/images/loginheader-left.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/login.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:32:13 +0000] "GET /mafia/flup.fcgi/static/images/menubg.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/style.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:32:13 +0000] "GET /mafia/flup.fcgi/static/images/headerbg.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/style.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:32:13 +0000] "GET /mafia/flup.fcgi/static/images/menu-item-border.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/style.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:32:13 +0000] "GET /mafia/flup.fcgi/static/images/loginheader-right.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/login.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:32:13 +0000] "GET /mafia/flup.fcgi/static/images/menu-item-actibg-first.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/style.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:32:14 +0000] "GET /mafia/flup.fcgi/static/images/inputbg.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/login.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:32:14 +0000] "GET /mafia/flup.fcgi/static/images/menu-item-actibg.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/style.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:34:43 +0000] "GET /mafia/flup.fcgi/login HTTP/1.1" 200 2920 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+2017-08-18 18:35:46,712 cherrypy.msg INFO HTTP: Page handler: <bound method Root.login of <mafia.controllers.Root object at 0x3834810>>
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/CherryPy-2.3.0-py2.7.egg/cherrypy/_cphttptools.py", line 121, in _run
+    self.main()
+  File "/usr/lib/python2.7/site-packages/CherryPy-2.3.0-py2.7.egg/cherrypy/_cphttptools.py", line 264, in main
+    body = page_handler(*virtual_path, **self.params)
+  File "<string>", line 3, in login
+  File "/usr/lib/python2.7/site-packages/turbogears/controllers.py", line 361, in expose
+    *args, **kw)
+  File "<generated code>", line 0, in run_with_transaction
+  File "/usr/lib/python2.7/site-packages/peak/rules/core.py", line 153, in __call__
+    return self.body(*args, **kw)
+  File "/usr/lib/python2.7/site-packages/turbogears/database.py", line 410, in so_rwt
+    retval = func(*args, **kw)
+  File "<generated code>", line 0, in _expose
+  File "/usr/lib/python2.7/site-packages/peak/rules/core.py", line 153, in __call__
+    return self.body(*args, **kw)
+  File "/usr/lib/python2.7/site-packages/turbogears/controllers.py", line 390, in <lambda>
+    fragment, options, args, kw)))
+  File "/usr/lib/python2.7/site-packages/turbogears/controllers.py", line 451, in _execute_func
+    fragment, **options)
+  File "/usr/lib/python2.7/site-packages/turbogears/controllers.py", line 100, in _process_output
+    headers=headers, fragment=fragment, **options)
+  File "/usr/lib/python2.7/site-packages/turbogears/view/base.py", line 203, in render
+    return engine.render(**kw)
+  File "/usr/lib/python2.7/site-packages/turbogears/view/genshisupport.py", line 31, in render
+    return self.transform(info, template).render(**kwargs)
+  File "/usr/lib64/python2.7/site-packages/genshi/core.py", line 184, in render
+    return encode(generator, method=method, encoding=encoding, out=out)
+  File "/usr/lib64/python2.7/site-packages/genshi/output.py", line 57, in encode
+    return _encode(''.join(list(iterator)))
+  File "/usr/lib64/python2.7/site-packages/genshi/output.py", line 475, in __call__
+    for kind, data, _ in stream:
+  File "/usr/lib64/python2.7/site-packages/genshi/output.py", line 829, in __call__
+    for kind, data, pos in stream:
+  File "/usr/lib64/python2.7/site-packages/genshi/output.py", line 669, in __call__
+    for kind, data, pos in stream:
+  File "/usr/lib64/python2.7/site-packages/genshi/output.py", line 774, in __call__
+    for kind, data, pos in chain(stream, [(None, None, None)]):
+  File "/usr/lib64/python2.7/site-packages/genshi/output.py", line 594, in __call__
+    for ev in stream:
+  File "/usr/lib64/python2.7/site-packages/genshi/core.py", line 289, in _ensure
+    for event in stream:
+  File "/usr/lib64/python2.7/site-packages/genshi/template/base.py", line 618, in _include
+    for event in stream:
+  File "/usr/lib64/python2.7/site-packages/genshi/template/markup.py", line 378, in _match
+    ctxt, start=idx + 1, **vars):
+  File "/usr/lib64/python2.7/site-packages/genshi/template/markup.py", line 326, in _match
+    for event in stream:
+  File "/usr/lib64/python2.7/site-packages/genshi/template/base.py", line 558, in _flatten
+    for kind, data, pos in stream:
+  File "/usr/lib64/python2.7/site-packages/genshi/template/directives.py", line 360, in __call__
+    iterable = _eval_expr(self.expr, ctxt, vars)
+  File "/usr/lib64/python2.7/site-packages/genshi/template/base.py", line 289, in _eval_expr
+    retval = expr.evaluate(ctxt)
+  File "/usr/lib64/python2.7/site-packages/genshi/template/eval.py", line 177, in evaluate
+    return eval(self.code, _globals, {'__data__': data})
+  File "/afs/athena.mit.edu/user/j/a/jamb/web_scripts/mafia/mafia/templates/master.html", line 63, in <Expression u'iter(menu_side)'>
+    <li py:for="title, url in menu_side"><a py:attrs="dict(href=url)" py:content="title"></a></li>
+  File "/usr/lib64/python2.7/site-packages/genshi/template/eval.py", line 310, in lookup_name
+    val = cls.undefined(name)
+  File "/usr/lib64/python2.7/site-packages/genshi/template/eval.py", line 413, in undefined
+    raise UndefinedError(key, owner=owner)
+UndefinedError: "menu_side" not defined
+Request Headers:
+  COOKIE: com.silverpop.iMAWebCookie=c1d5806d-ebb6-110e-41d0-9bb0792c936b; __cfduid=d58fab809c735093db3215381fa5ff8ef1499395029; _hp2_id.2689279202=%7B%22userId%22%3A%222847985665646798%22%2C%22pageviewId%22%3A%222170411534258921%22%2C%22sessionId%22%3A%227174713156220229%22%2C%22identity%22%3Anull%2C%22trackerVersion%22%3A%223.0%22%7D; __utma=205621196.685932261.1443203670.1502065066.1502065066.1; __utmz=205621196.1502065066.1.1.utmcsr=web.mit.edu|utmccn=(referral)|utmcmd=referral|utmcct=/asa/database/index.html; _ga=GA1.2.685932261.1443203670; tg-visit=8496ec371911ddeb368e8d2b04b57c168471e180
+  USER-AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
+  CONNECTION: close
+  Remote-Addr: 18.189.117.45
+  HOST: jamb.scripts.mit.edu
+  UPGRADE-INSECURE-REQUESTS: 1
+  CACHE-CONTROL: max-age=0
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  ACCEPT-ENCODING: gzip, deflate
+18.189.117.45 - - [18/Aug/2017:22:35:46 +0000] "GET /mafia/flup.fcgi/login HTTP/1.1" 500 4967 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:38:31 +0000] "GET /mafia/flup.fcgi/static/images/menu-item-actibg.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/style.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:38:32 +0000] "GET /mafia/flup.fcgi/login HTTP/1.1" 200 2132 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:38:32 +0000] "GET /mafia/flup.fcgi/static/css/login.css HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:38:32 +0000] "GET /mafia/flup.fcgi/static/css/style.css HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:38:32 +0000] "GET /mafia/flup.fcgi/static/images/under_the_hood_blue.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:38:32 +0000] "GET /mafia/flup.fcgi/static/images/contentbg.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/style.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:38:32 +0000] "GET /mafia/flup.fcgi/static/images/pagebg.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/style.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:38:32 +0000] "GET /mafia/flup.fcgi/static/images/loginbg.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/login.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:38:32 +0000] "GET /mafia/flup.fcgi/static/images/inputbg.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/login.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:38:32 +0000] "GET /mafia/flup.fcgi/static/images/loginheader-left.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/login.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:38:32 +0000] "GET /mafia/flup.fcgi/static/images/loginbottombg.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/login.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:38:32 +0000] "GET /mafia/flup.fcgi/static/images/menubg.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/style.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:38:32 +0000] "GET /mafia/flup.fcgi/static/images/loginheader-right.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/login.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:38:32 +0000] "GET /mafia/flup.fcgi/static/images/menu-item-actibg-first.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/style.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:38:33 +0000] "GET /mafia/flup.fcgi/static/images/headerbg.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/style.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:46:20 +0000] "GET /mafia/flup.fcgi/login HTTP/1.1" 200 1906 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:46:20 +0000] "GET /mafia/flup.fcgi/static/css/login.css HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:46:20 +0000] "GET /mafia/flup.fcgi/static/css/style.css HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:46:20 +0000] "GET /mafia/flup.fcgi/static/images/pagebg.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/style.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:46:20 +0000] "GET /mafia/flup.fcgi/static/images/loginbg.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/login.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:46:20 +0000] "GET /mafia/flup.fcgi/static/images/contentbg.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/style.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:46:20 +0000] "GET /mafia/flup.fcgi/static/images/loginbottombg.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/login.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:46:20 +0000] "GET /mafia/flup.fcgi/static/images/loginheader-left.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/login.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:46:20 +0000] "GET /mafia/flup.fcgi/static/images/headerbg.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/style.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:46:20 +0000] "GET /mafia/flup.fcgi/static/images/menu-item-actibg.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/style.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:46:20 +0000] "GET /mafia/flup.fcgi/static/images/menu-item-actibg-first.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/style.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:46:20 +0000] "GET /mafia/flup.fcgi/static/images/menubg.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/style.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:46:20 +0000] "GET /mafia/flup.fcgi/static/images/loginheader-right.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/login.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:46:21 +0000] "GET /mafia/flup.fcgi/static/images/inputbg.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/login.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+2017-08-18 18:46:25,229 cherrypy.msg INFO HTTP: Page handler: "The path '/f' was not found."
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/CherryPy-2.3.0-py2.7.egg/cherrypy/_cphttptools.py", line 121, in _run
+    self.main()
+  File "/usr/lib/python2.7/site-packages/CherryPy-2.3.0-py2.7.egg/cherrypy/_cphttptools.py", line 256, in main
+    page_handler, object_path, virtual_path = self.mapPathToObject(path)
+  File "/usr/lib/python2.7/site-packages/CherryPy-2.3.0-py2.7.egg/cherrypy/_cphttptools.py", line 326, in mapPathToObject
+    raise cherrypy.NotFound(objectpath)
+NotFound: 404
+Request Headers:
+  COOKIE: com.silverpop.iMAWebCookie=c1d5806d-ebb6-110e-41d0-9bb0792c936b; __cfduid=d58fab809c735093db3215381fa5ff8ef1499395029; _hp2_id.2689279202=%7B%22userId%22%3A%222847985665646798%22%2C%22pageviewId%22%3A%222170411534258921%22%2C%22sessionId%22%3A%227174713156220229%22%2C%22identity%22%3Anull%2C%22trackerVersion%22%3A%223.0%22%7D; __utma=205621196.685932261.1443203670.1502065066.1502065066.1; __utmz=205621196.1502065066.1.1.utmcsr=web.mit.edu|utmccn=(referral)|utmcmd=referral|utmcct=/asa/database/index.html; _ga=GA1.2.685932261.1443203670; tg-visit=8496ec371911ddeb368e8d2b04b57c168471e180
+  USER-AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
+  CONNECTION: close
+  Remote-Addr: 18.189.117.45
+  HOST: jamb.scripts.mit.edu
+  UPGRADE-INSECURE-REQUESTS: 1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  ACCEPT-ENCODING: gzip, deflate
+18.189.117.45 - - [18/Aug/2017:22:46:25 +0000] "GET /mafia/flup.fcgi/f HTTP/1.1" 404 1282 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:46:32 +0000] "GET /mafia/flup.fcgi/ HTTP/1.1" 200 4584 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:46:32 +0000] "GET /mafia/flup.fcgi/static/images/menu-item-border.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/style.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:46:32 +0000] "GET /mafia/flup.fcgi/static/images/info.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/style.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:46:43 +0000] "GET /mafia/flup.fcgi/login HTTP/1.1" 200 1939 "http://jamb.scripts.mit.edu/mafia/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:51:46 +0000] "GET /mafia/flup.fcgi/ HTTP/1.1" 200 4584 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:51:46 +0000] "GET /mafia/flup.fcgi/static/css/style.css HTTP/1.1" 200 3567 "http://jamb.scripts.mit.edu/mafia/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:51:46 +0000] "GET /mafia/flup.fcgi/static/images/pagebg.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/style.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:51:46 +0000] "GET /mafia/flup.fcgi/static/images/mafiabg.jpg HTTP/1.1" 200 8690 "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/style.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:51:46 +0000] "GET /mafia/flup.fcgi/static/images/menubg.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/style.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:51:46 +0000] "GET /mafia/flup.fcgi/static/images/menu-item-actibg-first.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/style.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:51:46 +0000] "GET /mafia/flup.fcgi/static/images/info.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/style.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:51:47 +0000] "GET /mafia/flup.fcgi/static/images/contentbg.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/style.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:51:47 +0000] "GET /mafia/flup.fcgi/static/images/menu-item-border.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/style.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:51:47 +0000] "GET /mafia/flup.fcgi/static/images/menu-item-actibg.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/style.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:56:02 +0000] "GET /mafia/flup.fcgi/login HTTP/1.1" 200 1939 "http://jamb.scripts.mit.edu/mafia/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:56:02 +0000] "GET /mafia/flup.fcgi/static/css/login.css HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:56:02 +0000] "GET /mafia/flup.fcgi/static/css/style.css HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:56:02 +0000] "GET /mafia/flup.fcgi/static/images/loginbg.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/login.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:56:02 +0000] "GET /mafia/flup.fcgi/static/images/loginbottombg.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/login.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:56:02 +0000] "GET /mafia/flup.fcgi/static/images/inputbg.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/login.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:56:02 +0000] "GET /mafia/flup.fcgi/static/images/loginheader-left.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/login.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:56:02 +0000] "GET /mafia/flup.fcgi/static/images/loginheader-right.png HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/login.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+18.189.117.45 - - [18/Aug/2017:22:56:02 +0000] "GET /mafia/flup.fcgi/static/images/mafiabg.jpg HTTP/1.1" 304 - "http://jamb.scripts.mit.edu/mafia/flup.fcgi/static/css/style.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+After wsgiserver(application=wsgiapp).run()
+After wsgiserver(application=wsgiapp).run()
+After wsgiserver(application=wsgiapp).run()

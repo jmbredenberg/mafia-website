@@ -1,0 +1,6 @@
+include start-mafia.py
+include *.cfg
+include mafia/config/*.cfg
+recursive-include mafia/templates *.html
+recursive-include mafia/templates *.kid
+recursive-include mafia/static *
