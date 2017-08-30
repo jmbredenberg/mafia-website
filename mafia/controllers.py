@@ -28,8 +28,31 @@ class Root(controllers.RootController):
     def index(self):
         """"Show the welcome page."""
         # log.debug("Happy TurboGears Controller Responding For Duty")
-        flash(_(u"Your application is now running"))
         return dict(now=datetime.datetime.now())
+
+    @expose(template="mafia.templates.forums")
+    def forums(self):
+        return dict()
+
+    @expose(template="mafia.templates.rules")
+    def rules(self):
+	return dict()
+
+    @expose(template="mafia.templates.archives")
+    def archives(self):
+        return dict()
+
+    @expose(template="mafia.templates.create_account")
+    def create_account(self):
+        return dict()
+
+    @expose(template="mafia.templates.create_game")
+    def create_game(self):
+        return dict()
+
+    @expose(template="mafia.templates.contact")
+    def contact(self):
+        return dict()
 
     @expose(template="mafia.templates.login")
     def login(self, forward_url=None, *args, **kw):

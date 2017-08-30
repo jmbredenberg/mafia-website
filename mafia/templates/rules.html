@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+                      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:py="http://genshi.edgewall.org/"
+      xmlns:xi="http://www.w3.org/2001/XInclude">
+
+<xi:include href="master.html" />
+<?python
+from turbogears.i18n.format import format_date
+def dateandtime(d):
+    return format_date(d, format="full", time_format=" @ %X %Z")
+?>
+
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type" py:replace="''"/>
+    <title>Live Action Mafia</title>
+</head>
+<body>
+
+    <!--! template functions -->
+    <span py:def="code(codestring)" py:content="codestring" class="code" />
+
+    <div class="content-section">
+      <!--! Normal content: Stuff that's not in the left or right column. !-->
+      <h3>
+        <strong>The Rules Document</strong>
+      </h3>
+
+<p>See our most recent rules document <a href="https://docs.google.com/document/d/1sBjdxFjwGfmknA_Tzx0W7OuJalgQXFWlP1kmG_qlvGc/edit#heading=h.2lkkmziyp4cp">here</a>. (It's a work in progress, as members constantly make suggestions to evolve it.) </p>
+<h3><strong>The 90-Second Overview</strong></h3>
+<p>Live Action Mafia is like the party game mafia, but played in real time and space. Some people are secretly the mafia, and everyone else is the town. The town is trying to figure out who the mafia are and execute them before they kill off the town. The mafia get about one kill per day, and the town makes one execution at the end of each day. A "day" really is a day - the 24-hour interval starting and ending at 11pm each night - but of course people aren't playing constantly. Spending about an hour per day on discussing game and taking actions is reasonable, and we understand that sometimes real life takes over and you can't put effort into game on a certain day.
+</p>
+<p>Much of gameplay happens on our forums (currently mafia.mit.edu, new site in progress), where everyone talks about what's going on and game announcements are posted. Mafia have their own secret forum. People who have already died unlock a third forum where they can discuss their thoughts on game. Forums have a private messaging system, which among other things allows players to cast execution votes and communicate actions to moderators. In practice, this often happens via gchat too.
+</p>
+<p>Much of gameplay also happens in real life: taking an action on a player generally requires going and tapping them on the shoulder. The times and locations of deaths are posted, and people try to deduce who made a kill by who could’ve been there at that time. So you might have to find people anywhere on campus and try to sneak up on them, at a time when you would plausibly have been elsewhere. To facilitate this, people post introductions saying where they'll be and add photos of themselves. We also try to have "town hall meetings" most days, where many players pick a time to meet up in person, talk about game, discuss who they think should be executed, and get to know each other. (There are usually around 20 players in a game, so everyone can get to know who everyone else is.) Players who live near each other often have smaller in-person meetups. If you find yourself not having enough opportunities for in-person discussion, say so! We'll schedule more town hall meetings. Talking (and lying) to other players IRL is a fun and important part of the game.
+</p>
+<p>
+Of course, to keep it interesting we give everyone special powers and items, so be sure to read through the rest of the rules!
+</p>
+
+</div>
+</body>
+</html>
