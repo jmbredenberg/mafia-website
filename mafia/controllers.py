@@ -43,8 +43,13 @@ class Root(controllers.RootController):
         return dict()
 
     @expose(template="mafia.templates.create_account")
-    def create_account(self):
+    def create_account(self, message=None):
+        if message:
+            return dict(msg=message)
         return dict()
+
+    def save_account(self, args):
+        redirect("/")
 
     @expose(template="mafia.templates.create_game")
     def create_game(self):

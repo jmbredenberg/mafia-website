@@ -55,6 +55,11 @@ class VisitIdentity(SQLObject):
                           alternateMethodName='by_visit_key')
     user_id = IntCol()
 
+class Page(SQLObject):
+    """A page in the forum structure."""
+    page_id = IntCol()
+    page_name = UnicodeCol(length=16, alternateID=True,
+                           alternateMethodName='by_page_name')
 
 class Group(SQLObject):
     """An ultra-simple group definition."""
@@ -250,5 +255,27 @@ def create_default_user(user_name, password=None):
     hub.begin()
     u = User(user_name=user_name, display_name=u"Default User",
         email_address=u"%s@nowhere.xyz" % user_name, password=password)
+    hub.commit()
+    print "User '%s' created." % user_name
+
+def create_new_user(user_name, password1, password2):
+    """Create a new user given name and password and confirmation.
+	Return string message of success/failure."""
+    try:
+        u = User.by_user_name(user_name)
+    except:
+        u = None
+    if u:
+        print "Sorry, the username '%s' is already taken." % user_name
+        return
+
+    try:
+        password = password1.strip()
+        if password != password2.strip():
+            return "Passwords do not match." 
+    hub.begin()
+    u = User(user_name=user_name, display_name=user_name,
+        email_address=u"%s@mit.edu" % user_name, password=password)
+    # todo get rid of email address
     hub.commit()
     print "User '%s' created." % user_name

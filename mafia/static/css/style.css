@@ -44,8 +44,9 @@ a {
 ul#mainmenu {
 	margin: 0;
 	padding: 0 10px;
-	background: url('../images/menubg.png') top left no-repeat;
+	background: #333;
 	height: 38px;
+	background: url('../images/menubg.jpg') top no-repeat;
 }
 
 ul#mainmenu li {
